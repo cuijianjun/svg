@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>练习</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+  <script>
+    document.documentElement.style.fontSize = window.innerWidth / 10.24 + 'px';
+    window.onresize = function(e) {
+      document.documentElement.style.fontSize = document.documentElement.offsetWidth / 10.24 + 'px';
+    };
+  </script>
+</head>
+<body>
+
+<div id="layout">
+  <div class="body play">
+    <div class="header">
+      <div class="back">
+        <img src="./image/back_new.png" alt="" onclick="window.location.href = 'xyz:back'">
+      </div>
+      <div class="control">
+        <div class="con_button try_start" id="button-play">
+          <img src="./image/try_start.png" >
+          <span>试听</span>
+        </div>
+        <div class="con_button try_stop" id="button-stop">
+          <img src="./image/try_stop.png" >
+          <span>停止</span>
+        </div>
+        <div class="con_button play_start" id="button-record-play">
+          <img src="./image/start.png" >
+          <div class="tips" id="tips">
+            <div class="tips-box">
+              点击按钮开始，完整演奏曲谱就能看到准确的评测结果哦
+            </div>
+          </div>
+          <span>开始演奏</span>
+        </div>
+        <div class="con_button play_stop" id="button-record-stop">
+          <img src="./image/stop.png" >
+          <span>结束演奏</span>
+        </div>
+      </div>
+      <div class="device-status" id="device-status">
+        <div class="un_linked"></div>
+        <!--<div class="voice"></div>-->
+        <!--<div class="un_linked hide"></div>-->
+      </div>
+    </div>
+    <div class="content">
+      <div class="class-main">
+        <div class="play-main">
+          <div class="play-main-container" id="xm-main-container"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="popup" id="popup">
+    <div class="popup-content">
+      <div class="pop-back" id="pop-back">
+        <img src="./image/pop-close.png">
+      </div>
+      <div class="pop-main">
+        <div class="score">
+          <span id="score">88</span>
+          <span class="text">分</span>
+        </div>
+        <div class="result" id="pop-result"></div>
+      </div>
+      <div class="pop-footer">
+        <div class="play-again" id="play-again">
+          <img src="./image/play-again.png" alt="">
+        </div>
+        <div class="detailed_report" id="detailed_report">
+          <img src="./image/detailed_report.png" alt="">
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="nolink" id="nolink">
+      <div class="nolink-content">
+        <p>
+          该功能需在连接<br>The ONE智能乐器<br>或开启声音识别使用
+        </p>
+        <div class="nolinkBtn" id="nolinkBtn">
+        </div>
+      </div>
+  </div>
+  <div class="deviceStatus" id="deviceStatus">
+    <div class="deviceContent">
+      <div class="close" id="close">
+        <img src="./image/close.png">
+      </div>
+      <div class="status">
+        <div class="ConnectStatus">
+          <div>连接状态：</div>
+          <p class="unlink" id="disconnect">未连接</p>
+          <p class="link" id="connect">已连接</p>
+        </div>
+        <div class="sound">
+          <div>声音识别：</div>
+          <p class="started" id="soundStarted">已开启</p>
+          <p class="willStarted" id="soundUnStared">未开启</p>
+          <p class="noSupport" id="noSupport">连琴时无需开启声音识别</p>
+          <div class="button" id="_start">
+            <!--开始-->
+            <img src="./image/_start.png" alt="">
+          </div>
+        </div>
+        <div class="tips">
+          声音识别需要您手动翻谱<br>
+          连接The ONE智能乐器自动翻谱
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+</body>
+</html>
+
+

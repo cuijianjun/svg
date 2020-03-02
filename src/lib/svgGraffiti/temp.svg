@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- Generator: MakeMusic 2014d.v5545 -->
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" x="0" y="0"  width="595" height="842" viewBox="0 0 595 842" enable-background="new 0 0 595 842" xml:space="preserve"
+style="position:absolute; top:0; left:0;-webkit-tap-highlight-color: rgba(0,0,0,0)">
+  <g xmlns="http://www.w3.org/2000/svg" id="graffiti">
+    <rect x="0" y="0" width="595.250" height="842.000" fill="transparent" stroke="none" pointer-events="none"/>
+  </g>
+  <g xmlns="http://www.w3.org/2000/svg" id="labelContainer">
+    <rect x="0" y="0" width="595.250" height="842.000" fill="transparent" stroke="none" pointer-events="none"/>
+    <defs>
+    <symbol id="incoherence" viewBox="0 0 134 58" preserveAspectRatio="xMidYMid meet">
+      <path fill="#FFE600" d="m98.4,40l-76.8,0c-11.9,0 -21.6,-9 -21.6,-20l0,0c0,-11 9.7,-20 21.6,-20l76.8,0c11.8,0 21.6,9 21.6,20l0,0c0,11 -9.7,20 -21.6,20z"/>
+      <text font-size="20" fill="#444444" font-family="PingFangSC-Regular-GBpc-EUC-H" transform="matrix(1 0 0 1 15.3004 26.2805)">不连贯</text>
+      <g id="close" class="close">
+        <path d="m89.2,26.6l0,0c-0.5,-0.5 -0.5,-1.2 0,-1.6l11.5,-11.5c0.5,-0.5 1.2,-0.5 1.6,0l0,0c0.5,0.5 0.5,1.2 0,1.6l-11.5,11.5c-0.4,0.5 -1.2,0.5 -1.6,0z"/>
+        <path d="m89.2,13.4l0,0c0.5,-0.5 1.2,-0.5 1.6,0l11.5,11.5c0.5,0.5 0.5,1.2 0,1.6l0,0c-0.5,0.5 -1.2,0.5 -1.6,0l-11.5,-11.4c-0.5,-0.5 -0.5,-1.2 0,-1.7z"/>
+      </g>
+    </symbol>
+    <symbol id="basHandSit" viewBox="0 0 214 58" preserveAspectRatio="xMidYMid meet">
+      <path fill="#FFE600" d="m158.4,40l-136.8,0c-11.9,0 -21.6,-9 -21.6,-20l0,0c0,-11 9.7,-20 21.6,-20l136.8,0c11.8,0 21.6,9 21.6,20l0,0c0,11 -9.7,20 -21.6,20z"/>
+      <text font-size="20" fill="#444444" font-family="PingFangSC-Regular-GBpc-EUC-H" transform="matrix(1 0 0 1 15.9167 26.2802)">不良手型坐姿</text>
+      <g id="close" class="close">
+        <path d="m150.2,26.6l0,0c-0.5,-0.5 -0.5,-1.2 0,-1.6l11.5,-11.5c0.5,-0.5 1.2,-0.5 1.6,0l0,0c0.5,0.5 0.5,1.2 0,1.6l-11.5,11.5c-0.5,0.5 -1.2,0.5 -1.6,0z"/>
+        <path d="m150.2,13.4l0,0c0.5,-0.5 1.2,-0.5 1.6,0l11.5,11.5c0.5,0.5 0.5,1.2 0,1.6l0,0c-0.5,0.5 -1.2,0.5 -1.6,0l-11.5,-11.5c-0.5,-0.4 -0.5,-1.1 0,-1.6z"/>
+      </g>
+    </symbol>
+
+    <symbol id="wrongRhythm" viewBox="0 0 134 58" preserveAspectRatio="xMidYMid meet">
+      <path  fill="#FFE600" d="m98.4,40l-76.8,0c-11.9,0 -21.6,-9 -21.6,-20l0,0c0,-11 9.7,-20 21.6,-20l76.8,0c11.8,0 21.6,9 21.6,20l0,0c0,11 -9.7,20 -21.6,20z" />
+      <text font-size="20" fill="#444444" font-family="PingFangSC-Regular-GBpc-EUC-H" transform="matrix(1 0 0 1 15.3004 26.2805)">错节奏</text>
+      <g id="svg_3" class="close">
+        <path d="m89.2,26.6l0,0c-0.5,-0.5 -0.5,-1.2 0,-1.6l11.5,-11.5c0.5,-0.5 1.2,-0.5 1.6,0l0,0c0.5,0.5 0.5,1.2 0,1.6l-11.5,11.5c-0.4,0.5 -1.2,0.5 -1.6,0z" fill="#444444"/>
+        <path d="m89.2,13.4l0,0c0.5,-0.5 1.2,-0.5 1.6,0l11.5,11.5c0.5,0.5 0.5,1.2 0,1.6l0,0c-0.5,0.5 -1.2,0.5 -1.6,0l-11.5,-11.4c-0.5,-0.5 -0.5,-1.2 0,-1.7z" fill="#444444"/>
+      </g>
+    </symbol>
+    <symbol id="wrongPro" viewBox="0 0 114 58" preserveAspectRatio="xMidYMid meet">
+      <path fill="#FFE600" d="m78.4,39.9l-56.8,0c-11.9,0 -21.6,-9 -21.6,-20l0,0c0,-11 9.7,-20 21.6,-20l56.8,0c11.8,0 21.6,9 21.6,20l0,0c0,11 -9.7,20 -21.6,20z"/>
+      <text font-size="20" fill="#444444" font-family="PingFangSC-Regular-GBpc-EUC-H" transform="matrix(1 0 0 1 15.3004 26.1705)">错音</text>
+      <g id="close" class="close">
+        <path d="m68.8,26.5l0,0c-0.5,-0.5 -0.5,-1.2 0,-1.6l11.5,-11.5c0.5,-0.5 1.2,-0.5 1.6,0l0,0c0.5,0.5 0.5,1.2 0,1.6l-11.4,11.5c-0.5,0.4 -1.2,0.4 -1.7,0z"/>
+        <path d="m68.8,13.3l0,0c0.5,-0.5 1.2,-0.5 1.6,0l11.6,11.5c0.5,0.5 0.5,1.2 0,1.6l0,0c-0.5,0.5 -1.2,0.5 -1.6,0l-11.6,-11.5c-0.4,-0.4 -0.4,-1.2 0,-1.6z"/>
+      </g>
+    </symbol>
+   <symbol id="wrongFinger" viewBox="0 0 134 58" preserveAspectRatio="xMidYMid meet">
+     <path fill="#FFE600" d="m98.4,40l-76.8,0c-11.9,0 -21.6,-9 -21.6,-20l0,0c0,-11 9.7,-20 21.6,-20l76.8,0c11.8,0 21.6,9 21.6,20l0,0c0,11 -9.7,20 -21.6,20z"/>
+      <text font-size="20" fill="#444444" font-family="PingFangSC-Regular-GBpc-EUC-H" transform="matrix(1 0 0 1 15.3004 26.2805)">错指法</text>
+      <g id="close" class="close">
+        <path d="m89.2,26.6l0,0c-0.5,-0.5 -0.5,-1.2 0,-1.6l11.5,-11.5c0.5,-0.5 1.2,-0.5 1.6,0l0,0c0.5,0.5 0.5,1.2 0,1.6l-11.5,11.5c-0.4,0.5 -1.2,0.5 -1.6,0z"/>
+        <path d="m89.2,13.4l0,0c0.5,-0.5 1.2,-0.5 1.6,0l11.5,11.5c0.5,0.5 0.5,1.2 0,1.6l0,0c-0.5,0.5 -1.2,0.5 -1.6,0l-11.5,-11.4c-0.5,-0.5 -0.5,-1.2 0,-1.7z"/>
+      </g>
+   </symbol>
+    </defs>
+  </g>
+</svg>

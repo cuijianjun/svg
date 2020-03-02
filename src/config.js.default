@@ -1,0 +1,9 @@
+export const share_url = {
+  development: 'http://smart-v4-api-dev.1tai.com/smart-piano/web/share/lab',
+  production: 'http://smart-v4-api-dev.1tai.com/smart-piano/web/share/lab'
+};
+
+export const zhuge_debug = {
+  development: false,
+  production: true
+};

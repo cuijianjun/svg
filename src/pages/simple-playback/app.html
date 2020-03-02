@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>The ONE 智能评测系统</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+</head>
+
+<body>
+<script>
+  document.documentElement.style.fontSize = window.innerWidth / 7.5 + 'px';
+  window.onresize = function(e) {
+    document.documentElement.style.fontSize = document.documentElement.offsetWidth / 7.5 + 'px';
+  };
+</script>
+<!--画板-->
+<div class="play-container">
+  <div class="play-head" >
+    <div class="head-info">
+      <div class="back">
+        <img src="./image/back.png">
+      </div>
+      <div class="info-main info-play0" id="info-play0">
+        <div class="info-icon">
+          <i class="iconfont icon-yinpinbofang"></i>
+        </div>
+        <span id="start-play">回放</span>
+      </div>
+      <label>
+        <input class="mui-switch" type="checkbox" id="switch" >
+      </label>
+    </div>
+  </div>
+  <div class="play-main">
+    <div class="play-main-container" id="mb-main-container"></div>
+  </div>
+</div>
+<div class="popup" id="popup">
+  <div class="popup-content">
+    <div class="pop-back" id="pop-back">
+      <i class="iconfont icon-zhanshiguanbi"></i>
+    </div>
+    <div class="pop-content left">
+      <div class="score">
+        总分
+        <span id="final">
+            --
+          </span>
+        <span class="text">分</span>
+      </div>
+      <div class="score">
+        音准
+        <span id="pitch">
+            --
+          </span>
+        <span class="text">分</span>
+      </div>
+      <div class="score">
+        节奏
+        <span id="rhythm">
+            --
+          </span>
+        <span class="text">分</span>
+      </div>
+      <div class="score">
+        速度
+        <span id="speed">
+            --
+          </span>
+        <span class="text">分</span>
+      </div>
+      <div class="score">
+        稳定性
+        <span id="simpleSpeed">
+            --
+          </span>
+        <span class="text">分</span>
+      </div>
+      <div class="score">
+        完整性
+        <span id="simpleComplete">
+            --
+          </span>
+        <span class="text">分</span>
+      </div>
+      <div class="score">
+        scoreId
+        <span id="scoreId">
+            --
+          </span>
+      </div>
+      <div class="score">
+        recordId
+        <span id="recordId">
+            --
+          </span>
+      </div>
+    </div>
+    <div class="pop-content right">
+      <div class="loadRecord">
+        <input type="text" value="" class="mytxt" id="mytxt"/>
+        <div class="startLoad" id="startLoad">回放</div>
+      </div>
+    </div>
+  </div>
+</div>
+</body>
+
+</html>

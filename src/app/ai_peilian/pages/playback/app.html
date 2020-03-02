@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>回放</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+  <script>
+    document.documentElement.style.fontSize = window.innerWidth / 10.24 + 'px';
+    window.onresize = function(e) {
+      document.documentElement.style.fontSize = document.documentElement.offsetWidth / 10.24 + 'px';
+    };
+  </script>
+</head>
+<body>
+<div id="layout">
+  <div class="body playback">
+    <div class="header">
+      <div class="back">
+        <img src="./image/back.png">
+      </div>
+      <div class="control">
+        <div class="con_button playback" id="button-playback-play">
+          <img src="./image/playback.png" >
+          <span>回放</span>
+        </div>
+        <div class="con_button stop" id="button-playback-stop">
+          <img src="./image/stop.png" >
+          <span>停止</span>
+        </div>
+      </div>
+      <div class="notice">
+        <div class="con_button hint" id="button-playback-hint">
+          <img src="./image/hint.png" alt="">
+          <div class="notice-hint" id="notice-playback-hint">
+            <div class="hint-box">
+              <ul>
+              </ul>
+            </div>
+          </div>
+          <span>练琴提示</span>
+        </div>
+      </div>
+      <div class="again">
+        <div id="button-again">
+          <img src="./image/again.png" alt="">
+          <span>再来一遍</span>
+        </div>
+      </div>
+      <audio id="record-audio" preload="none" src=""></audio>
+      <div class="help" id="help">
+        <img src="./image/help.png" alt="">
+        <div class="notice-help" id="notice-playback-help">
+          <div class="help-box">
+            <ul>
+              <li><img src="./image/green.png" alt=""><span>绿色音符：演奏正确</span></li>
+              <li><img src="./image/red.png" alt=""><span>红色音符：错音/漏音</span></li>
+              <li><img src="./image/green2.png" alt=""><span>音符重影（红色在前）：弹早了</span></li>
+              <li><img src="./image/red2.png" alt=""><span>音符重影（红色在后）：弹晚了</span></li>
+              <li><img src="./image/gray.png" alt=""><span>灰色音符：错误过多/演奏卡顿/未演奏</span></li>
+              <li><img src="./image/wave.png" alt=""><span>曲线：起伏越小速度越稳</span></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="content">
+      <div class="class-main">
+        <div class="play-main">
+          <div class="play-main-container" id="xm-main-container"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+</body>
+</html>

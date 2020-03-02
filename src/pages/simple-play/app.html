@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>The ONE 智能评测系统</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+</head>
+
+<body>
+<script>
+  document.documentElement.style.fontSize = window.innerWidth / 7.5 + 'px';
+  window.onresize = function(e) {
+    document.documentElement.style.fontSize = document.documentElement.offsetWidth / 7.5 + 'px';
+  };
+</script>
+<!--模板-->
+<div class="play-container">
+  <div class="play-head">
+    <div class="head-info">
+      <div class="back">
+        <img src="./image/back.png">
+      </div>
+      <div class="info-main info-play0" id="info-play0">
+        <div class="info-icon">
+          <i class="iconfont icon-yinpinbofang"></i>
+        </div>
+        <span id="start-play">开始演奏</span>
+      </div>
+      <div class="info-main info-music0" id="info-music0">
+        <div class="info-icon">
+          <i class="iconfont icon-yinpinbofang"></i>
+        </div>
+        <span>播放曲谱</span>
+      </div>
+      <div class="info-main info-test0" id="info-test0">
+        <span style="color:#fff">测试</span>
+      </div>
+    </div>
+  </div>
+  <div class="play-toast-test">
+    <div class="test-box">
+      <label><input class="mui-switch" type="checkbox" id="onoffswitch" ><span>link</span></label><br>
+      <div class="play-back">
+        <input type="text" id="test-record-id" placeholder="record_id">
+        <button class="play-back-btn" id="play-record-as-test">回放</button>
+      </div>
+      <div class="play-back">
+        <input type="text" placeholder="MIDI URL">
+        <button class="play-back-btn" id="play-midi-url-as-test">回放</button>
+      </div>
+      <div class="play-back">
+        <input type="file" id="midi-file">
+        <button class="play-back-btn" id="play-upload-midi-as-test">回放</button>
+      </div>
+      <div class="close-toast">
+        关闭
+      </div>
+    </div>
+  </div>
+  <div class="play-main">
+    <div class="play-main-container" id="mb-main-container"></div>
+  </div>
+</div>
+<!-- device connect status -->
+<div class="device-status" id="device-status">
+  <div class="linked hide">
+    <span>已连琴</span>
+    <i class="i i-linked"></i>
+  </div>
+  <div class="notlinked">
+    <span>未连琴</span>
+    <i class="i i-linked"></i>
+  </div>
+</div>
+<div class="popup" id="popup">
+  <div class="popup-content">
+    <div class="pop-back" id="pop-back">
+      <i class="iconfont icon-zhanshiguanbi"></i>
+    </div>
+    <div class="pop-footer">
+      <div class="play-again" id="play-again">
+        <span>再来一次</span>
+      </div>
+      <div class="detailed_report" id="detailed_report">
+        <span>回放</span>
+      </div>
+    </div>
+    <div class="pop-content">
+      <div class="score">
+        总分
+        <span id="final">
+            --
+          </span>
+        <span class="text">分</span>
+      </div>
+      <div class="score">
+        音准
+        <span id="pitch">
+            --
+          </span>
+        <span class="text">分</span>
+      </div>
+      <div class="score">
+        节奏
+        <span id="rhythm">
+            --
+          </span>
+        <span class="text">分</span>
+      </div>
+      <div class="score">
+        速度
+        <span id="speed">
+            --
+          </span>
+        <span class="text">分</span>
+      </div>
+      <div class="score">
+        稳定性
+        <span id="simpleSpeed">
+            --
+          </span>
+        <span class="text">分</span>
+      </div>
+      <div class="score">
+        完整性
+        <span id="simpleComplete">
+            --
+          </span>
+        <span class="text">分</span>
+      </div>
+      <div class="score">
+        scoreId
+        <span id="scoreId">
+            --
+          </span>
+      </div>
+      <div class="score">
+        recordId
+        <span id="recordId">
+            --
+          </span>
+      </div>
+
+    </div>
+  </div>
+</div>
+</body>
+
+</html>
